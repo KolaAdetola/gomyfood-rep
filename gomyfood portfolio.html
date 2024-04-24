@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8" />
     <title>GoMyFood</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheeet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
     <header>
@@ -23,31 +23,35 @@
         </nav>
     </header>
     <main>
-        <section class="hero">
+    <section class="hero">
             <div class="container">
                 <h1>Welcome to Our Restaurant</h1>
                 <p class="dstv">Discover delicious dishes from around the world.</p>
-                <a href="#" class="button">Explore Menu</a>
+                <button type="button" class="btn btn-primary">Explore</button>
             </div>
         </section>
         <section class="menu">
             <div class="container">
                 <h1 class="size">Our Menu</h1>
-                <div class="dish">
-                    <h3 class="food">MAPO TOFU:</h3>
-                    <p>Mapo tofu is a classic Chinese dish known for its bold and spicy flavors. It features cubes of soft tofu cooked in a savory and spicy sauce made with fermented black beans, chili paste, and Sichuan peppercorns. Ground meat, typically pork or beef, is often added for extra richness and texture. The dish is renowned for its numbing heat from the Sichuan peppercorns, balanced by the creaminess of the tofu. It's a popular choice in both home kitchens and restaurants, cherished for its complexity and satisfying warmth.</p>
-                    <span>#1.2 million</span>
-                </div>
-                <div class="dish">
-                    <h3 class="food">White Truffles: </h3>
-                    <p>Rare and highly prized fungi that grow underground in the Piedmont region of Italy, known for their pungent aroma and earthy flavor.</p>
-                    <span>#100000</span>
-                </div>
-                <div class="dish">
-                    <h3 class="food">Kobe Beef:</h3>
-                    <p> A type of Wagyu beef from the Tajima strain of Japanese Black cattle, known for its exceptional marbling and tenderness.</p>
-                    <span>#31000</span>
-                </div>
+                <div class=".col-md-8">
+                    <img src="tofu.png" alt="Item 1">
+                    <div class="menu-item-title">MAPU TOFU</div>
+                    <div class="menu-item-description">Mapo tofu is a classic Chinese dish originating from Sichuan province. It's a flavorful and spicy dish consisting of tofu cubes cooked in a sauce made with fermented black beans, chili paste, garlic, ginger, and Sichuan peppercorns. The dish is typically garnished with minced meat, often pork or beef, along with chopped scallions or leeks.</div>
+                    <div class="menu-item-price">#100000</div>
+                  </div>
+
+                  <div class=".col-md-8">
+                    <img src="truffles.png" alt="Item 2">
+                    <div class="menu-item-title">White Truffles</div>
+                    <div class="menu-item-description">White truffles are highly prized fungi with a distinctive aroma and delicate flavor. They have a rough, warty exterior and a marbled white interior. Found primarily in the Piedmont region of Italy, they grow underground in a symbiotic relationship with certain trees. White truffles are used sparingly in gourmet cuisine, shaved thinly over dishes like pasta, risotto, or scrambled eggs to impart their unique aroma and flavor. Due to their rarity and high demand, they are considered a luxury ingredient and are sold at premium prices.</div>
+                    <div class="menu-item-price">#31000</div>
+                  </div>
+                  <div class=".col-md-8">
+                    <img src="kobe beef.png" alt="Item 3">
+                    <div class="menu-item-title">Kobe beef</div>
+                    <div class="menu-item-description">Kobe beef is a type of high-quality beef that comes from Wagyu cattle raised in the Hyogo Prefecture of Japan, with Kobe being its capital. Known for its exceptional marbling, tenderness, and rich flavor, Kobe beef is highly sought after by food enthusiasts worldwide. The meat is prized for its melt-in-your-mouth texture and intense umami taste. Kobe beef cattle are raised under strict regulations, including a specialized diet and rigorous breeding standards, resulting in meat of unparalleled quality. Due to its limited availability and meticulous production process, Kobe beef commands a premium price in the culinary world.</div>
+                    <div class="menu-item-price">#92000</div>
+                  </div>
                 <!-- More dishes here -->
             </div>
         </section>
