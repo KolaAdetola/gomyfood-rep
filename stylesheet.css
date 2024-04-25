@@ -137,4 +137,33 @@ span{
     font-weight: bold;
     color: #008000;
   }
+  .container{
+    
+      display: flexbox;
+      grid-template-columns: 33% 33% 33%;
+      grid-template-rows: 33% 33% 33%;
+      background-color: grey;
+      padding: 20px;
+      grid-column-start: 3;
+
+
+
+
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: start;
+  }
+  .contact-section {
+    padding: 50px 0;
+  }
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
 
