@@ -1,169 +1,98 @@
-*{
-    
-    box-sizing: border-box;
-}
-header {
-    display: flex;
-justify-content: space-around;
-padding: 0px;
-background-color: navy;
-}
-.navbar {
-    display: flex;
-gap: 25px;
-background-color: navy;
-justify-content: center;
-align-items: center;
-padding-left: 350px;
-text-decoration: none;
-}
-header img{
-    justify-self: start;
-}
-body {
-    font-family:Arial, Helvetica, sans-serif;
-    background-color: aliceblue;
-}
-a {
-    text-decoration: none;
-font-size: larger;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.hero {
-    text-align: center;
-    padding: 50px 0;
-    background-image: url(https://66.media.tumblr.com/1322f4304a527139c3b7b6ed24f5a05f/tumblr_o5stmo3CYf1v656bko1_640.png);
-    background-size: cover;
-    color: ;
-}
-.hero {
-    text-align: center;
-    padding: 100px 0;
-    background-color: #f8f9fa; /* Change background color as needed */
-}
 
-.hero h2 {
-    margin-bottom: 20px;
-}
-.button {
-    background-color: navy;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    
-
-
-}
-div h1{
-    font-size: 80px;
-}
-.dstv {
-    font-size: 40px;
-}
-.size {
-    font-size: 80px;
-}
-div h3 {
-    display: flex;
-    border: 1px solid red;
-  padding: 15px;
-}
-.dish {
-    border: 1px solid pink;
-  padding: 10px;
-  background-color: antiquewhite;
-  width: 75%;
-  display: flex;
-
+        /* Add custom styles here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa; /* Change to your preferred background color */
+        }
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #fff; /* Change to your preferred text color */
+        }
+        .navbar-nav a {
+            color: #fff; /* Change to your preferred text color */
+            margin-right: 15px;
+        }
+        .navbar-nav a:hover {
+            color: #ffc107; /* Change to your preferred hover color */
+        }
+        .hero {
+            background-image: url(https://i.pinimg.com/originals/43/13/f6/4313f6e9632b030b1016bd3859ab48df.jpg); /* Add your hero image URL */
+            background-size: cover;
+            background-position: center;
+            color: black; /* Change to your preferred text color */
+            text-align: center;
+            padding: 100px 0;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+        .menu {
+            background-color: #fff; /* Change to your preferred background color */
+            padding: 50px 0;
+        }
+        .menu-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .menu-item {
+            margin-bottom: 50px;
+        }
+        .menu-item img {
+            width: 100%;
+            border-radius: 10px; /* Add border radius for images */
+        }
+        .menu-item-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .menu-item-description {
+            margin-bottom: 10px;
+        }
+        .menu-item-price {
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+        .about-us {
+            background-color: #f8f9fa; /* Change to your preferred background color */
+            padding: 50px 0;
+            text-align: center;
+        }
+        .about-us-title {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+        .about-us-content {
+            font-size: 1.25rem;
+        }
+        .about-us img {
+            width: 100%;
+            border-radius: 10px; /* Add border radius for images */
+        }
+        .contact-section {
+            background-color: #f8f9fa; /* Change to your preferred background color */
+            padding: 50px 0;
+        }
+        .footer {
+            background-color: #343a40; /* Change to your preferred background color */
+            color: #fff; /* Change to your preferred text color */
+            padding: 50px 0;
+        }
+        .footer p {
+            margin-bottom: 0;
+        }
+        .social-icons a {
+            color: #fff; /* Change to your preferred icon color */
+            margin-right: 15px;
+        }
+        .social-icons a:hover {
+            color: #ffc107; /* Change to your preferred hover color */
+        }
   
-  
-}
-.food {
-    border: 3px solid aqua;
-  padding: 15px;
-  width: 25%;
-  
-
-
-
-}
-span{
-    width: 10%;
-    float: left;
-    padding: 10px;
-    border: 1px solid red;
-    height: 80%;
-    
-
-}
-.menu-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-  }
-  .menu-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-  }
-  .menu-item {
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 20px;
-    text-align: center;
-    display: grid;
-    grid-template-columns: 100px 200px 300px;
-        grid-template-rows: 100px 2px 300px;
-  }
-  .menu-item img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
-  .menu-item-title {
-    font-size: 20px;
-    margin-top: 10px;
-  }
-  .menu-item-description {
-    margin-top: 10px;
-  }
-  .menu-item-price {
-    margin-top: 10px;
-    font-weight: bold;
-    color: #008000;
-  }
-  .container{
-    
-      display: flexbox;
-      grid-template-columns: 33% 33% 33%;
-      grid-template-rows: 33% 33% 33%;
-      background-color: grey;
-      padding: 20px;
-      grid-column-start: 3;
-
-
-
-
-  }
-  .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: start;
-  }
-  .contact-section {
-    padding: 50px 0;
-  }
-  .footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-  }
-

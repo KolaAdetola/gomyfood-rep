@@ -1,30 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <title>GoMyFood</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoMyFood - Restaurant</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
     <header>
-
-        <img src="1713900769350-fotor-bg-remover-20240423203315.png" width="120px" height="120px">
-        <nav class="navbar">
-            <a href="#">HOME</a>
-            <a href="#">MENU</a>
-            <a href="#">ABOUT US</a>
-            <a href="#">CONTACT</a>
-            
-            
-            
-            
-            
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="RES/1713900769350-fotor-bg-remover-20240423203315.png" width="80px" height="80px">GoMyFood</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">MENU</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
-    <section class="hero">
-            <div class="containeer">
+        <section class="hero">
+            <div class="container">
                 <h1>Welcome to Our Restaurant</h1>
                 <p class="dstv">Discover delicious dishes from around the world.</p>
                 <button type="button" class="btn btn-primary">Explore</button>
@@ -32,85 +44,145 @@
         </section>
         <section class="menu">
             <div class="container">
-                <h1 class="size">Our Menu</h1>
-                <div class=".col-md-8">
-                    <img src="tofu.png" alt="Item 1" height="10%" width="40%">
-                    <div class="grid-items">MAPU TOFU</div>
-                    <div class="menu-item-description">Mapo tofu is a classic Chinese dish originating from Sichuan province. It's a flavorful and spicy dish consisting of tofu cubes cooked in a sauce made with fermented black beans, chili paste, garlic, ginger, and Sichuan peppercorns. The dish is typically garnished with minced meat, often pork or beef, along with chopped scallions or leeks.</div>
-                    <div class="menu-item-price">#100000</div>
+                <h1 class="menu-title">Our Menu</h1>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="menu-item">
+                            <img src="RES/Chaliapin_Steak_Don_29.webp" alt="Mapu Tofu">
+                            <div class="menu-item-title">Chaliapin Steak Don</div>
+                            <div class="menu-item-description">a rice bowl topped with a tender steak and caramelized onions.</div>
+                            <div class="menu-item-price">#100000</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="menu-item">
+                            <img src="https://th.bing.com/th/id/OIP.ltkfpYPO4u7qoI_gyRiU_QHaEK?rs=1&pid=ImgDetMain" alt="White Truffles">
+                            <div class="menu-item-title">Four Layered Semi Freddo</div>
+                            <div class="menu-item-description">a frozen dessert with four different flavors and textures.</div>
+                            <div class="menu-item-price">#31000</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="menu-item">
+                            <img src="https://th.bing.com/th/id/R.e5de7938e59aaa25e33e04530afc9727?rik=eAguxjhJX8E2Dw&riu=http%3a%2f%2fi.kinja-img.com%2fgawker-media%2fimage%2fupload%2fs--i9hSGmAR--%2fc_fit%2cf_auto%2cfl_progressive%2cq_80%2cw_636%2f1505248382023442860.jpg&ehk=yU4j9IKjMv3udHdV4amPmp41yJnswZHuOZD9ZWiB2Fk%3d&risl=&pid=ImgRaw&r=0" alt="Kobe beef">
+                            <div class="menu-item-title">Gotcha Roasted Pork:</div>
+                            <div class="menu-item-description"> a fake pork roast made from potatoes, mushrooms and bacon.</div>
+                            <div class="menu-item-price">#92000</div>
+                        </div>
+                    </div>
+                  <div class="col-md-4">
+                    <div class="menu-item">
+                        <img src="https://media.giphy.com/media/HSSJphsM5t744/giphy.gif" alt="White Truffles">
+                        <div class="menu-item-title">Sumire Karaage Roll</div>
+                        <div class="menu-item-description">a sushi roll with fried chicken, cheese and spicy sauce.</div>
+                        <div class="menu-item-price">#17000</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="menu-item">
+                      <img src="https://th.bing.com/th/id/OIP.MWit4qzZps3nizhAfJGfSwAAAA?rs=1&pid=ImgDetMain" alt="White Truffles">
+                      <div class="menu-item-title">Transforming Furikake Rice</div>
+                      <div class="menu-item-description">a rice dish that changes flavor and color when mixed with a special seasoning.</div>
+                      <div class="menu-item-price">#50000</div>
                   </div>
-
-                  <div class=".col-md-8">
-                    <img src="truffles.png" alt="Item 2">
-                    <div class="menu-item-title">White Truffles</div>
-                    <div class="menu-item-description">White truffles are highly prized fungi with a distinctive aroma and delicate flavor. They have a rough, warty exterior and a marbled white interior. Found primarily in the Piedmont region of Italy, they grow underground in a symbiotic relationship with certain trees. White truffles are used sparingly in gourmet cuisine, shaved thinly over dishes like pasta, risotto, or scrambled eggs to impart their unique aroma and flavor. Due to their rarity and high demand, they are considered a luxury ingredient and are sold at premium prices.</div>
-                    <div class="menu-item-price">#31000</div>
-                  </div>
-                  <div class=".col-md-8">
-                    <img src="kobe beef.png" alt="Item 3">
-                    <div class="menu-item-title">Kobe beef</div>
-                    <div class="menu-item-description">Kobe beef is a type of high-quality beef that comes from Wagyu cattle raised in the Hyogo Prefecture of Japan, with Kobe being its capital. Known for its exceptional marbling, tenderness, and rich flavor, Kobe beef is highly sought after by food enthusiasts worldwide. The meat is prized for its melt-in-your-mouth texture and intense umami taste. Kobe beef cattle are raised under strict regulations, including a specialized diet and rigorous breeding standards, resulting in meat of unparalleled quality. Due to its limited availability and meticulous production process, Kobe beef commands a premium price in the culinary world.</div>
-                    <div class="menu-item-price">#92000</div>
-                  </div>
-                <!-- More dishes here -->
+              </div>
+              <div class="col-md-4">
+                <div class="menu-item">
+                    <img src="RES/Boeuf_Bourguignon_29.webp" alt="White Truffles">
+                    <div class="menu-item-title">Boeuf Bourguignon</div>
+                    <div class="menu-item-description">a frozen dessert with four different flavors and textures.</div>
+                    <div class="menu-item-price">#70000</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+              <div class="menu-item">
+                  <img src="RES/Eggs_Benedict_29.webp" alt="White Truffles">
+                  <div class="menu-item-title">Eggs Benedict</div>
+                  <div class="menu-item-description">a frozen dessert with four different flavors and textures.</div>
+                  <div class="menu-item-price">#20000</div>
+              </div>
+          </div>
+          <div class="col-md-4">
+            <div class="menu-item">
+                <img src="res/Improvised_Mackerel_Burger_Meal_(Food_Wars_Ep_4).webp" alt="White Truffles">
+                <div class="menu-item-title">Mackerel Burger Meal</div>
+                <div class="menu-item-description">a frozen dessert with four different flavors and textures.</div>
+                <div class="menu-item-price">#15000</div>
+            </div>
+        </div>
+        <div class="col-md-4">
+          <div class="menu-item">
+              <img src="res/Nine_Vegetable_Terrine_29.webp" alt="White Truffles">
+              <div class="menu-item-title">Nine Vegetable Terrine</div>
+              <div class="menu-item-description">a frozen dessert with four different flavors and textures.</div>
+              <div class="menu-item-price">60000</div>
+          </div>
+      </div>
+      <div class="col-md-4">
+        <div class="menu-item">
+            <img src="res/Revamped_Mackrel_Onigiri_Chazuke_29.webp" alt="White Truffles">
+            <div class="menu-item-title">Mackrel Onigiri Chazuke</div>
+            <div class="menu-item-description">a frozen dessert with four different flavors and textures.</div>
+            <div class="menu-item-price">#31000</div>
+        </div>
+    </div>
+    <div class="col-md-4">
+      <div class="menu-item">
+          <img src="res/Sukiyaki_Don_29.webp" alt="White Truffles">
+          <div class="menu-item-title">Sukiyaki Don</div>
+          <div class="menu-item-description">a frozen dessert with four different flavors and textures.</div>
+          <div class="menu-item-price">#31000</div>
+      </div>
+  </div>
+                </div>
             </div>
         </section>
-         <!-- Contact Section -->
-  <section class="contact-section">
-    <div class="container">
-      <h2>Contact Us</h2>
-      <form>
-        <div class="form-group">
-          <label for="name">Name</label>
-          <input type="text" class="form-control" id="name" placeholder="Enter your name">
-        </div>
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" class="form-control" id="email" placeholder="Enter your email">
-        </div>
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-    </div>
-  </section>
-
-
-
-
-
+        <section class="about-us">
+            <div class="container">
+                <h2 class="about-us-title">About Us</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="https://imgix.ranker.com/list_og_img/128/2547520/original/best-food-in-shokugeki-no-soma-u4?fm=pjpg&q=80" alt="Restaurant Image">
+                    </div>
+                    <div class="col-md-6">
+                        <p class="about-us-content">We are a passionate team dedicated to providing an exceptional dining experience. Our chefs craft each dish with care, using the finest ingredients to create flavorful and memorable meals. Whether you're craving traditional favorites or exploring new flavors, we have something for everyone. Join us and indulge in a culinary journey that will delight your taste buds and leave you craving more.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-section">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </section>
     </main>
     <footer class="footer">
         <div class="container">
-          <p>2024 Fictional Restaurant. All rights reserved.</p>
-          <div class="social-icons">
-            <a href="#"><img src="icons8-facebook-24.png" width="40px" height="40px"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><img src="icons8-linkedin-50.png" width="40px" height="40px"><i class="fab fa-twitter"></i></a>
-            <a href="#"><img src="1713995302525-fotor-bg-remover-20240424224910.png" width="40px" height="40px"><fab fa-instagram"></i></a>
-          </div>
+            <p>&copy; 2024  GoMyFood. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><img src="RES/icons8-facebook-24.png" alt="Facebook"  width="40px" height="40px"></a>
+                <a href="#"><img src="RES/icons8-linkedin-50.png" alt="LinkedIn"  width="40px" height="40px"></a>
+                <a href="#"><img src="RES/1713995302525-fotor-bg-remover-20240424224910.png" alt="Instagram" width="40px" height="40px"></a>
+            </div>
         </div>
-      </footer>
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
